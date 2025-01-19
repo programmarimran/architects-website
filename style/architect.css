@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.work-sans{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shared style */
+.benne-container,
+.navber{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.display-flex{
+  display: flex;
+}
+a{
+  text-decoration:none;
+}
+li{
+  list-style: none;
+}
+/* dark-1 */
+  .text-grey{
+    color: rgba(19, 19, 19, 1);
+  }
+  /* dark-2 */
+  .text-light-grey{
+    color: rgba(66, 66, 66, 1);
+  }
+  /* dark-3 */
+  .text-white-grey{
+    color: rgba(114, 114, 114, 1);
+  }
+  .btn-primary{
+      margin-top: 32px;
+      padding: 20px;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(255, 144, 14, 1);
+      border-radius: 8px;
+      border: none;
+    }
+
+/* header style */
+
+  /* navber style */
+.background-color{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navber{
+  padding-top: 55px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container{
+
+}
+.brands{
+ font-weight: bold;
+ font-size: 2.8rem;
+}
+.nav-links{
+  gap: 24px;
+}
+.nav-list{
+  font-weight: 500;
+  font-size: 1.12rem;
+}
+/* banner style */
+.benner-title{
+  font-weight: bold;
+  font-size: 4rem;
+}
+.benner-description{
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.benner-text{
+  margin-top: 116px;
+  text-align: center;
+}
+.benner-img img{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 45px;
+  border-radius: 8px;
+}
+/* media query is start */
+/* small device  */
+@media screen and (max-width:576px){
+  .navber{
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+}
+
