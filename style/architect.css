@@ -133,10 +133,13 @@ top: 40px;
 /* small device  */
 @media screen and (max-width:576px){
   .navber,
-  .our-features-container,
-  .display-flex{
+  .our-features-container{
     flex-direction: column;
     gap: 32px;
+  }
+  .our-features-text{
+    width: 100%;
+    text-align: center;
   }
   
 }
