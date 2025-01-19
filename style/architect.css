@@ -16,7 +16,8 @@
 
 /* shared style */
 section,
-.our-features-container{
+.our-features-container,
+.love-features-container{
   margin-top: 100px;
 }
 .benne-container,
@@ -132,14 +133,28 @@ top: 40px;
 }
 /* love features stary */
 .love-features-container{
-  display: flex;
+ gap: 50px;
+
+}
+.love-features{
+  max-width: 50%;
 }
 .love-features-title{
   border-left: 5px solid rgba(255, 144, 14, 1);
-  padding-left: 69px;
+  padding-left:40px;
+}
+.love-features-description{
+  padding-left:24px;
+  margin-top: 24px;
 }
 .love-features img{
   width: 100%;
+}
+.feature-card{
+  padding:30px;
+ border-radius: 8px;
+ box-shadow:0px 4px 30px 0 rgba(0, 0, 0, 0.06);
+ margin-top: 20px;
 }
 .feature-title{
   font-weight: 600;
@@ -148,6 +163,14 @@ top: 40px;
 .feature-description{
   font-weight: 400;
   font-size: 1rem;
+}
+.experience-badge{
+  margin-top: -100px;
+  margin-left: -50px;
+}
+#experience-badge{
+  font-weight: 700;
+  font-size: 4.06rem;
 }
 /* media query is start */
 /* small device  */
