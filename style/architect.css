@@ -15,6 +15,9 @@
 }
 
 /* shared style */
+section{
+  margin-top: 100px;
+}
 .benne-container,
 .navber{
   max-width: 1440px;
@@ -96,6 +99,14 @@ li{
   margin-top: 50px;
   margin-bottom: 45px;
   border-radius: 8px;
+}
+/* main sectoin style start */
+.our-features-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.features{
+  color: rgba(255, 144, 14, 1);
 }
 /* media query is start */
 /* small device  */
